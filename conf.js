@@ -15,9 +15,10 @@ exports.explorer_base_url = process.env.testnet ? 'https://testnetexplorer.obyte
 exports.oswap_base_url = process.env.testnet ? 'https://testnet-governance.oswap.io/' : 'https://governance.oswap.io/';
 
 exports.governance_base_AAs = [
+  'KXQFOINIUBXIBGFNZ5SCHMPJLX4LJHSV', // Mar 2026
   'QQJXAEYSZU76EPDALIRNUFFTWMKGADHV'
 ];
 
 exports.token_registry_AA_address = process.env.token_registry_AA_address;
 
-console.log('finished server conf');
+console.log('finished oswap-governance-discord conf');
